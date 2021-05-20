@@ -1,0 +1,116 @@
+body {
+    margin:0;
+    background-color: #FBF4F3}
+    
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Microsoft Yahei;
+    font-size: 1em;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #3FB8DC;
+  }
+  
+  .active {
+    background-color: #333;
+  }
+  
+  h1 {
+    font-family: "Microsoft Yahei";
+    font-size: 2em;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  h3.一 {
+    font-family: "Microsoft Yahei";
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+
+  img.八分 {
+    float: left;
+    margin-left: 180px;
+    margin-top: 30px;
+  }
+
+  div.八分介绍 {
+    font-family: "Microsoft Yahei";
+    font-size: 1em;
+    text-indent: 30px;
+    letter-spacing: 8px;
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: 150px;
+    background-color: #ffffff;
+  }
+  
+  h3.二 {
+    font-family: "Microsoft Yahei";
+    font-size: 1.5em;
+    margin-top: 200px;
+    margin-right: 100px;
+    float:right;
+  }
+  
+  img.TI {
+    float: right;
+    margin-right: 20px;
+    margin-top: 300px;
+  }
+
+  div.TI介绍 {
+    font-family: "Microsoft Yahei";
+    font-size: 1em;
+    text-indent: 30px;
+    letter-spacing: 8px;
+    margin-left: 200px;
+    margin-top: 400px;
+    margin-right: 550px;
+    background-color: #ffffff;
+  }
+
+  h3.三 {
+    font-family: "Microsoft Yahei";
+    font-size: 1.5em;
+    margin-top: 200px;
+    margin-left: 150px;
+  }
+
+  img.忽左忽右 {
+    float: left;
+    margin-left: 180px;
+    margin-top: 30px;
+  }
+
+  div.忽左忽右介绍 {
+    font-family: "Microsoft Yahei";
+    font-size: 1em;
+    text-indent: 30px;
+    letter-spacing: 8px;
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: 150px;
+    background-color: #ffffff;
+  }

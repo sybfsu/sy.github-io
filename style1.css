@@ -1,0 +1,75 @@
+
+body {
+  margin:0;
+  background-color: #FBF4F3}
+
+  div.小宇宙logo{
+    float: left;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FBF4F3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-family: Microsoft Yahei;
+  font-size: 1em;
+}
+
+li a:hover:not(.active) {
+  background-color: #3FB8DC;
+}
+
+.active {
+  background-color: #333;
+}
+
+h2 {
+  font-family: "Microsoft Yahei";
+  font-size: 3em;
+}
+
+p {
+  font-family: "Microsoft Yahei";
+  font-size: 1em;
+}
+
+div.主图1{
+	float: left;
+	margin-left: 400px;
+  margin-top: 200px;
+}
+
+div.文字{
+	float: right;
+	margin-right: 200px;
+  margin-top: 230px;
+}
+
+.footer {
+  color:white;
+  background-color: #333;
+  position: fixed;
+  height: 50px;
+  width:100%;
+  bottom:0px;
+  text-align: center;
+}

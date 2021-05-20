@@ -1,0 +1,82 @@
+body {
+  margin:0;
+  background-color: #FBF4F3}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: Microsoft Yahei;
+  font-size: 1em;
+}
+
+li a:hover:not(.active) {
+  background-color: #3FB8DC;
+}
+
+.active {
+  background-color: #333;
+}
+
+h1 {
+  font-family: "Microsoft Yahei";
+  font-size: 2em;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: "Microsoft Yahei";
+  font-size: 1.5em;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+p {
+  font-family: "Microsoft Yahei";
+  margin-left: 60px;
+  margin-right: 90px;
+}
+
+h3 {
+  font-family: "Microsoft Yahei";
+  font-size: 1em;
+  margin-left: 50px;
+  margin-bottom: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 55px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
